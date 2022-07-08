@@ -1,5 +1,5 @@
 /* Original code by matt vogel */
-  /* Source: https://github.com/8bitgentleman/roam-custom-theme  */
+  /* Source: https://github.com/8bitgentleman/roam-depo-html-table  */
   /* v1  */
   // creates a right click menu plugin which will convert a copied HTML table to a roam table
   // this table was used as reference https://www.w3schools.com/html/html_tables.asp
