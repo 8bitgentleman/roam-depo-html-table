@@ -62,16 +62,16 @@
 
 export default {
   onload: () => {
-    console.log("load HTML table import plugin")
+    console.log("load table import plugin")
     roamAlphaAPI.ui.blockContextMenu.addCommand({
-      label: "Paste HTML Table",
+      label: "Paste Table",
       callback: (e) => pasteTable(e['block-uid'])
   })
   },
   onunload: () => {
-    console.log("unload HTML table import plugin")
+    console.log("unload table import plugin")
     roamAlphaAPI.ui.blockContextMenu.removeCommand(
-      {label: "Paste HTML Table"}
+      {label: "Paste Table"}
     )
   }
 };

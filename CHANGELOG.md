@@ -1,5 +1,10 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [v2.1]() (2022-08-8)
+
+### Refactors
+* Change Misleading Name - CSV/Excel tables can also be imported
+
 ## [v2]() (2022-07-8)
 
 ### Refactors
