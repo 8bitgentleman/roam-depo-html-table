@@ -1,5 +1,16 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [v2.2]() (2026-11-13)
+
+### Features
+* CSV support - comma-separated text is detected automatically alongside tab-separated spreadsheet data
+
+### Bug Fixes
+* No more empty last row when the copied text ends with a newline (every Excel copy)
+* Quoted cells are parsed properly - multi-line cells, embedded delimiters and "" escaped quotes
+* Short rows are padded so columns stay aligned
+* An empty clipboard no longer overwrites the block
+
 ## [v2.1]() (2022-08-8)
 
 ### Refactors
